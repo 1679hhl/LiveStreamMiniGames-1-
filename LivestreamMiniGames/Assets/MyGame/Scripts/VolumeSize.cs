@@ -29,6 +29,7 @@ public class VolumeSize : MonoBehaviour
             target.Radius += 0.5f;
             targetGroup.Targets[i] = target;
             RefreshSpeed();
+            MyGameManager.Instance.AddEnergy(MyGameManager.EnergyType.Red, 15f);
         }
         
         StartCoroutine(ScaleOverTime(volumeObject, targetScale, 0.2f));
