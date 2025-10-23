@@ -19213,22 +19213,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: AI (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 7807837125937259790, guid: 1cd38db2758f99f419c51e8d8aaf3fd4,
-        type: 3}
-      propertyPath: m_CompositeOperation
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7866963881289799122, guid: 1cd38db2758f99f419c51e8d8aaf3fd4,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 3b9e073ee03f6614898a81df8af9c7ef,
-        type: 3}
-    - target: {fileID: 7866963881289799122, guid: 1cd38db2758f99f419c51e8d8aaf3fd4,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8898343051443500493, guid: 1cd38db2758f99f419c51e8d8aaf3fd4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19278,16 +19262,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8993047069028543425, guid: 1cd38db2758f99f419c51e8d8aaf3fd4,
-        type: 3}
-      propertyPath: movement.stopDistance
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 8993047069028543425, guid: 1cd38db2758f99f419c51e8d8aaf3fd4,
-        type: 3}
-      propertyPath: movement.follower.desiredWallDistance
-      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
