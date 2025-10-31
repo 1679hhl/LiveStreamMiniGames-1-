@@ -1,0 +1,85 @@
+{
+    "EquipmentTypeArray": [
+        {
+            "Id": 47001,
+            "Name": "鱼竿",
+            "MaxAttribute": 0.2,
+            "ReinforeId": 1,
+            "StoreBg": "道具卡蓝",
+            "Tip": "攻速+",
+            "MulNum": 100
+        },
+        {
+            "Id": 47002,
+            "Name": "鱼线",
+            "MaxAttribute": 3.0,
+            "ReinforeId": 2,
+            "StoreBg": "道具卡蓝",
+            "Tip": "缠斗+",
+            "MulNum": 1
+        },
+        {
+            "Id": 47003,
+            "Name": "鞋子",
+            "MaxAttribute": 1.5,
+            "ReinforeId": 3,
+            "StoreBg": "道具卡蓝",
+            "Tip": "缠斗+",
+            "MulNum": 1
+        },
+        {
+            "Id": 47004,
+            "Name": "鱼钩",
+            "MaxAttribute": 20.0,
+            "ReinforeId": 4,
+            "StoreBg": "道具卡蓝",
+            "Tip": "攻击力+",
+            "MulNum": 1
+        },
+        {
+            "Id": 47005,
+            "Name": "椅子",
+            "MaxAttribute": 12.5,
+            "ReinforeId": 5,
+            "StoreBg": "道具卡蓝",
+            "Tip": "攻击力+",
+            "MulNum": 1
+        },
+        {
+            "Id": 47006,
+            "Name": "手套",
+            "MaxAttribute": 7.5,
+            "ReinforeId": 6,
+            "StoreBg": "道具卡蓝",
+            "Tip": "攻击力+",
+            "MulNum": 1
+        },
+        {
+            "Id": 47007,
+            "Name": "浮漂",
+            "MaxAttribute": 0.125,
+            "ReinforeId": 7,
+            "StoreBg": "道具卡蓝",
+            "Tip": "爆伤+",
+            "MulNum": 100
+        },
+        {
+            "Id": 47008,
+            "Name": "抄网",
+            "MaxAttribute": 250.0,
+            "ReinforeId": 8,
+            "StoreBg": "道具卡蓝",
+            "Tip": "最后一击:",
+            "MulNum": 1
+        },
+        {
+            "Id": 47009,
+            "Name": "鱼桶",
+            "MaxAttribute": 500.0,
+            "ReinforeId": 0,
+            "StoreBg": "道具卡蓝",
+            "Tip": "容量:",
+            "MulNum": 1
+        }
+    ]
+}

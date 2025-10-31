@@ -1,0 +1,14 @@
+syntax = "proto3";
+package pb;
+option go_package = "./;pb";
+// 更新变化位置信息
+message UpdatePositionNotify{
+  repeated  UpdatePositionInfo UpdatePositionInfoList = 1;
+}
+
+message UpdatePositionInfo{
+  // openId
+  string openId = 1;
+  // 位置编号
+  int32 posNum = 2;
+}

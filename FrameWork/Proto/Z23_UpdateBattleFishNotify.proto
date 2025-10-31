@@ -1,0 +1,26 @@
+syntax = "proto3";
+package pb;
+option go_package = "./;pb";
+	// 更新玩家战斗的信息
+message UpdateBattleFishNotify{
+  repeated UpdateBattleFish UpdateBattleFishList = 1;
+}
+
+message UpdateBattleFish{
+  // openId
+  string openId = 1;
+  // 战斗剩余的持续时间 （毫秒）
+  int64 battleDurationMill = 2;
+  // 上次战斗攻击开始时间
+  int64 attackStartTime = 3;
+  // 当前血量
+  double blood = 4;
+  // 当前扣血
+  double deduction = 5;
+  // 当前是否暴击
+  bool isCritical = 6;
+  // 是否抄网
+  bool isCopyNet = 7;
+  // 是否首伤
+  bool isFirstHit = 8;
+}

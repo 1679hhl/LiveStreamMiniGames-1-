@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Configs
+  m_EditorClassIdentifier: 
+  m_GroupName: ConfIgs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3e3ed33d814a5bc4a91e283c9a310354
+  m_SerializeEntries:
+  - m_GUID: 1614d08a9197fc24aa12a0999f5ae273
+    m_Address: LuckBoundTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c128d701422cea4590a4b665848c57f
+    m_Address: EquipmentTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33cee9121a4ac6c4999a076838f877f9
+    m_Address: FishTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3eda6225a13cb76469ee9d1453037870
+    m_Address: MultiLanguageTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69dc7b9e3e5e8fb4ab99a105378ddcdf
+    m_Address: PlatformGiftTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71c405e95ef14a34c8c54be3a98e2f71
+    m_Address: LevelTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 722050b9d175ff24e8543ca78834122d
+    m_Address: ItemGradeTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74b6a2681b17e1647b4f544ad6f9a4e6
+    m_Address: ParameterTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b7161c3892071d4d9bcbb3a79b14383
+    m_Address: GiftGroupTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89ff9b3e457688f4a9bf1e3dbc86aec5
+    m_Address: FishGradeTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 903770eac45e7a44e8b41191fcc6e47b
+    m_Address: GiftIconTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 927df080b01d6ce47a6ea5dcc574d5cb
+    m_Address: UnlockConditionIdTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 980096adeee5d8b40b74cd19cd2e52b3
+    m_Address: PropTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bde64dba8d7efdb47bd3c8aafbabddc3
+    m_Address: DMCMDTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5ab4054eb349f94582ecfa2136c9b48
+    m_Address: TableConfig
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1dd6495929347a4fa7d13e959d2dd41
+    m_Address: WatersTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0d8b11440c7d094d860ce216c37386d
+    m_Address: EquipmentTypeTable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c75f2ca1b1119344ab13edda26221a61, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5ce4d21fd9df124488df208586c11250, type: 2}
+    - {fileID: 11400000, guid: c554b6df718175a4584b56047319d7f3, type: 2}

@@ -1,0 +1,15 @@
+{
+    "EquipmentArray": [
+        {
+            "Id": 50011,
+            "Name": "路边树枝",
+            "Name_CC": "",
+            "EquipmentType": 47001,
+            "ItemGrade": 60001,
+            "AtrributeRange": [
+                0,
+                0.08
+            ]
+        }
+    ]
+}

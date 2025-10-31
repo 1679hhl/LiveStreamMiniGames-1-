@@ -1,0 +1,21 @@
+syntax = "proto3";
+package pb;
+option go_package = "./;pb";
+
+import "Z0_Common.proto";
+	// 更新玩家的状态
+message UpdatePlayerStatusNotify{
+  repeated UpdatePlayerStatus UpdatePlayerStatusList = 1;
+}
+message UpdatePlayerStatus{
+  // openId
+  string openId = 1;
+  // 状态开始时间
+  int64 stateStartTime = 2;
+  //  玩家的状态
+  PlayerState playerState = 3;
+  //------------甩干后的状态有这个----
+  // 准备要掉的鱼
+  BattleFishInfo BattleFish = 4;
+
+}

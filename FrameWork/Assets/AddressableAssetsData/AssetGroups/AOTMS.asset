@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AOTMS
+  m_EditorClassIdentifier: 
+  m_GroupName: AOTMS
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0e1aeb9eba7d85d44a65f8cba9bdb4cd
+  m_SerializeEntries:
+  - m_GUID: 0ac652cddd8ecc042857ca73722c4888
+    m_Address: System.dll
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AOT
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44cda6f22bbca5241aaa2f2bacef8e28
+    m_Address: Framework.Tweening.dll
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AOT
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58dc46031c49c5a4f9b28bc11b5ae648
+    m_Address: Core.dll
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AOT
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73b6cb066f4b4ae4e871b61d0ea3fbcb
+    m_Address: UnityFx.Async.dll
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AOT
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89840f2e16dab6448acff4fd076efffc
+    m_Address: Framework.UI.dll
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AOT
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a74affb96d86bf340ae4c1cb4739d583
+    m_Address: Newtonsoft.Json.dll
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AOT
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b730240ca12501544a08c62d7987daf9
+    m_Address: Framework.Hotfix.dll
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AOT
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0d10986b12a39d4b8a8c4fdf8543ab4
+    m_Address: UnityEngine.CoreModule.dll
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AOT
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3e5d0a2d6e9cfa43b7851cb7ac28616
+    m_Address: System.Core.dll
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AOT
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4c071dacf011ae48a506d071a9c901e
+    m_Address: Google.Protobuf.dll
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AOT
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa37e2d2ed0867f42b361277d429af85
+    m_Address: mscorlib.dll
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AOT
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c75f2ca1b1119344ab13edda26221a61, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0247a49f31eac074baba4833011b7c8c, type: 2}
+    - {fileID: 11400000, guid: 10699c2ba2e6b8843b2bb4cb7b68e132, type: 2}

@@ -1,0 +1,33 @@
+{
+    "UnlockConditionIdArray": [
+        {
+            "Id": 48001,
+            "UnlockGrade": [
+                1,
+                2,
+                3
+            ],
+            "UnlockWomen": 3,
+            "UnlockMan": 3,
+            "UnlockTime ": [
+                20,
+                21
+            ],
+            "LimitNum": 100,
+            "UnlockWaters": [
+                101
+            ]
+        },
+        {
+            "Id": 48002,
+            "UnlockGrade": [],
+            "UnlockWomen": 0,
+            "UnlockMan": 0,
+            "UnlockTime ": [],
+            "LimitNum": 0,
+            "UnlockWaters": [
+                101
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Framework.UI",
+    "rootNamespace": "",
+    "references": [
+        "Core",
+        "Framework.Tweening",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "AVProVideo.Runtime",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

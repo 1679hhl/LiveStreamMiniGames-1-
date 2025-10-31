@@ -1,0 +1,20 @@
+{
+    "tables": [
+        "GiftGroupTable",
+        "GiftIconTable",
+        "PlatformGiftTable",
+        "ParameterTable",
+        "WatersTable",
+        "LevelTable",
+        "MultiLanguageTable",
+        "LuckBoundTable",
+        "DMCMDTable",
+        "ItemGradeTable",
+        "EquipmentTable",
+        "EquipmentTypeTable",
+        "PropTable",
+        "FishTable",
+        "FishGradeTable",
+        "UnlockConditionIdTable"
+    ]
+}

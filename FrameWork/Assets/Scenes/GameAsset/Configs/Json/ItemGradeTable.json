@@ -1,0 +1,53 @@
+{
+    "ItemGradeArray": [
+        {
+            "Id": 60001,
+            "Grade": 1,
+            "Name": "凡品",
+            "Path": "Line_1",
+            "TextMaterial": "SIMKAIAtlasMaterialGrade1"
+        },
+        {
+            "Id": 60002,
+            "Grade": 2,
+            "Name": "下品",
+            "Path": "Line_2",
+            "TextMaterial": "SIMKAIAtlasMaterialGrade2"
+        },
+        {
+            "Id": 60003,
+            "Grade": 3,
+            "Name": "良品",
+            "Path": "Line_3",
+            "TextMaterial": "SIMKAIAtlasMaterialGrade3"
+        },
+        {
+            "Id": 60004,
+            "Grade": 4,
+            "Name": "上品",
+            "Path": "Line_4",
+            "TextMaterial": "SIMKAIAtlasMaterialGrade4"
+        },
+        {
+            "Id": 60005,
+            "Grade": 5,
+            "Name": "极品",
+            "Path": "Line_5",
+            "TextMaterial": "SIMKAIAtlasMaterialGrade5"
+        },
+        {
+            "Id": 60006,
+            "Grade": 6,
+            "Name": "先天",
+            "Path": "Line_6",
+            "TextMaterial": "SIMKAIAtlasMaterialGrade6"
+        },
+        {
+            "Id": 60007,
+            "Grade": 7,
+            "Name": "黄阶",
+            "Path": "Line_7",
+            "TextMaterial": "SIMKAIAtlasMaterialGrade7"
+        }
+    ]
+}

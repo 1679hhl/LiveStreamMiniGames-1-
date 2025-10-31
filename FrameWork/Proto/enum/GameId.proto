@@ -1,0 +1,27 @@
+syntax="proto3";
+package pb;
+option go_package = "./;pb";
+//message GameId {
+//// 战斗象棋
+// GameId zdxq=1;
+//// 星际前线
+// GameId xjqx=2;
+//// 星际之巅
+// GameId xjzd=3;
+// // 回合制
+// GameId tgb=4;
+// // SLG
+// GameId Slg=5;
+// 烽火帝国
+//GameId Fhdg=6;
+//}
+enum GameId {
+ GameIdnone=0;
+zdxq=1;
+xjqx=2;
+xjzd=3;
+tgb=4;
+Slg=5;
+Fhdg=6;
+}
+ 

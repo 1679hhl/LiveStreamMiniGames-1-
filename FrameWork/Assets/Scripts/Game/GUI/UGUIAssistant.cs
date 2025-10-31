@@ -1,0 +1,30 @@
+using System;
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+namespace Game
+{
+    public class UGUIAssistant : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler,IPointerClickHandler
+    {
+        public Action OnEnterAct;
+        public Action OnExitAct;
+        public Action OnClickAct;
+        
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            this.OnEnterAct?.Invoke();
+        }
+
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            this.OnExitAct?.Invoke();
+        }
+        
+        public void OnPointerClick(PointerEventData eventData)
+        {
+            this.OnClickAct?.Invoke();
+        }
+        
+    }
+}
+

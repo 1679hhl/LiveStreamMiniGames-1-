@@ -1,0 +1,53 @@
+{
+    "FishGradeArray": [
+        {
+            "Id": 48001,
+            "Grade": 1,
+            "Name": "凡品",
+            "MaxScore": 8500.0,
+            "WaitPercent": 1.0
+        },
+        {
+            "Id": 48002,
+            "Grade": 2,
+            "Name": "下品",
+            "MaxScore": 13300.0,
+            "WaitPercent": 1.5
+        },
+        {
+            "Id": 48003,
+            "Grade": 3,
+            "Name": "良品",
+            "MaxScore": 21300.0,
+            "WaitPercent": 2.5
+        },
+        {
+            "Id": 48004,
+            "Grade": 4,
+            "Name": "上品",
+            "MaxScore": 33300.0,
+            "WaitPercent": 5.0
+        },
+        {
+            "Id": 48005,
+            "Grade": 5,
+            "Name": "极品",
+            "MaxScore": 49300.0,
+            "WaitPercent": 12.0
+        },
+        {
+            "Id": 48006,
+            "Grade": 6,
+            "Name": "先天",
+            "MaxScore": 70900.0,
+            "WaitPercent": 20.0
+        },
+        {
+            "Id": 48007,
+            "Grade": 7,
+            "Name": "黄阶",
+            "MaxScore": 100500.0,
+            "WaitPercent": 60.0
+        }
+    ]
+}

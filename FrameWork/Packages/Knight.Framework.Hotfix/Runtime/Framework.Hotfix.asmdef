@@ -1,0 +1,17 @@
+{
+    "name": "Framework.Hotfix",
+    "rootNamespace": "",
+    "references": [
+        "Core",
+        "GroundZero.GNode"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "GroundZero.Localization",
+    "rootNamespace": "",
+    "references": [
+        "GUID:34ce72e8b9be69b408faa33297dd11c5",
+        "GUID:611b184bbef348c44b2050d158ae3d41"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

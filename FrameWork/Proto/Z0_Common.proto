@@ -1,0 +1,241 @@
+syntax = "proto3";
+package pb;
+option go_package = "./;pb";
+
+
+message Common{
+
+}
+
+enum RankType{
+  PlayerRankWeek = 0;// 玩家周排名
+  PlayerRankMonth = 1;// 玩家月排名
+  // 玩家段位排名
+  PlayerRanking = 2;
+}
+
+enum ErrCode{
+  Success = 0;//成功
+  // 通用请求错误
+  CommonFail = 1;//失败
+}
+
+
+// 物品类型
+enum ItemType{
+  // 道具
+  IT_Prop = 0;
+  // 装备
+  IT_Equipment = 1;
+}
+
+// 玩家钓鱼时的不同状态
+enum PlayerState {
+  Free = 0;//空闲状态 （准备甩干）
+  SpinningRod = 1;//甩杆
+  BITE = 2;//鱼上钩（准备战斗  ）
+  Attack = 3;//战斗期间
+}
+
+
+// 玩家数据
+message OpenVo {
+  // openId
+  string openId = 1;
+  // 用户头像
+  string avatarUrl = 2;
+  // 昵称
+  string nickName = 3;
+  // (幸运值)
+  int64 luckyValue = 4;
+  // 上次跨天时间
+  int64 lastCrossDayTime = 5;
+  // 上次跨周时间
+  int64 lastCrossWeekTime = 6;
+  // 上次活跃时间
+  int64 lastActiveTime = 7;
+  // 礼物币
+  int64 giftCoin = 8;
+  // 经验
+  int64 exp = 13;
+  // 金币
+  int64 gold = 14;
+  // 装备列表 【9个】
+  repeated Equipment equipmentList = 9;
+  // 鱼饵列表
+  repeated FishBait fishBaitList = 10;
+  // 道具列表
+  repeated PropInfo propList = 16;
+  // 鱼桶的鱼的列表
+  repeated FishBucket fishBucketList = 11;
+  // 已经解锁的鱼谱
+  repeated FishPedigree fishPedigreeList = 12;
+  // 鱼缸里面的鱼
+  repeated FishVat fishVatList = 15;
+  // 自动钓鱼结束时间戳
+  int64 autoFishingEndTime = 17;
+  // 增加攻击力结束时间戳
+  int64 addAttackEndTime = 18;
+  // 增加攻速结束时间错
+  int64 addSpeedEndTime = 19;
+  // 任务列表
+  repeated TaskInfo taskList = 20;
+  // 累计点赞数量
+  int64 totalLikeNum = 21;
+  // 当前直播间主播的id
+  string anchorId = 22;
+  // 当前直播间的位置编号
+  int32 posNum = 23;
+  // 上一次关卡id
+  int32 lastLevelId = 24;
+  // 当前关卡id
+  int32 curLevelId = 25;
+  // 状态开始时间
+  int64 stateStartTime = 26;
+  //  玩家的状态
+  PlayerState playerState = 27;
+  // 战斗过程的鱼
+  BattleFishInfo BattleFish = 28;
+}
+
+// 道具列表
+message PropInfo{
+  int32 propId = 1;
+  int32 num = 2;
+  int64 expireTime = 3;  // 道具过期时间时间戳 0就是永久
+}
+
+// 鱼的基础信息
+message FishInfo {
+  int32 fishId = 1;         // 鱼的ID
+  int32 num = 2;  // 鱼缸和鱼桶共用的唯一编号
+  double bloodPercent = 3; // 血量比例
+  bool isMutate = 4; // 是否变异
+  // 鱼的品级
+  int32 fishGradeLv = 5;
+}
+
+// 战斗过程的鱼
+message BattleFishInfo {
+  FishInfo  fishInfo = 1;// 鱼的信息
+  // 鱼要上钩的时间
+  int64 hookTime = 2;
+  // 战斗剩余的持续时间 （毫秒）
+  int64 battleDurationMill = 3;
+  // 上次战斗攻击开始时间
+  int64 attackStartTime = 4;
+  double blood=5;//当前的血量
+}
+
+// 鱼桶里面的鱼信息
+message FishBucket {
+  FishInfo  fishInfo = 1;// 鱼的信息
+  // 鱼的排名
+  int32 rank = 5;
+}
+
+//鱼谱的里面的鱼
+message FishPedigree {
+  FishInfo  fishInfo = 1;// 鱼的信息
+  // 是否上阵
+  bool isOnField = 5;
+}
+
+// 鱼缸的鱼
+message FishVat {
+  FishInfo  fishInfo = 1;// 鱼的信息
+  int64 putInTime = 2; // 放入鱼缸的时间戳，用来计算鱼的年龄和售价
+}
+
+// 鱼饵的数据结构
+message FishBait {
+  int32 propId = 1;      // 道具id
+  int32 baitNum = 2;    // 鱼饵数量
+}
+
+
+// 个人钓鱼鱼的日志
+message gotFishLog {
+  int32 fishId = 1; // 鱼的ID
+  // 发生时间戳
+  int64 happenTime = 2;
+  //
+}
+// 定义装备的通用结构
+message Equipment {
+  string uniqueId = 1; // 装备的唯一标识
+  int32 equipmentId = 2; // 装备的id
+  int32 star = 3;  // 装备的强化星级
+  double percent = 4;// 装备初始的百分比
+}
+
+//主播信息存档的
+message AnchorDBInfo {
+  // 唯一id
+  string accountId = 1;
+  // 昵称
+  string nickName = 2;
+  // 头像
+  string headUrl = 3;
+  // 游戏ID
+  int32 gameId = 4;
+  // 平台
+  int32 platformId = 5;
+  // 游戏模式(官游/野游)
+  int32 modeId = 6;
+  // 总礼物值
+  double allGiftValue = 7;
+  // 主播的玩家列表
+  repeated string playerIdList = 8;
+  // 上一次关卡id
+  int32 lastLevelId = 9;
+  // 当前关卡id
+  int32 curLevelId = 10;
+  // 水域的经验
+  repeated LevelExp LevelExpList =11;
+}
+// 关卡的经验
+message LevelExp {
+  int32 levelId = 1;
+  int32 exp = 2;
+}
+
+message OpenBaseVo {
+  // openId
+  string openId = 1;
+  // 用户头像
+  string avatarUrl = 2;
+  // 昵称
+  string nickName = 3;
+  // 评论
+  string content = 4;
+}
+
+
+
+enum TaskStatus{
+  // 未开始
+  NotStarted = 0;
+  // 未完成
+  Incomplete = 1;
+  Complete = 2;
+  // 奖励已发
+  RewardSent = 3;
+}
+
+message TaskInfo {
+  // taskUid
+  string taskUid = 1;
+  // 任务id
+  int32 taskId = 2;
+  // 任务状态
+  TaskStatus taskStatus = 3; // 0未开始 1未完成  2已完成
+  // 任务进度
+  int32 taskProgress = 4;
+  // 任务结束时间
+  int64 endTime = 5;
+  // 任务开始时间
+  int64 startTime = 6;
+  // 【全服任务】使用的进度值
+  int32 serverALlTaskProgress = 7;
+}

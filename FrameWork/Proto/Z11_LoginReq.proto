@@ -1,0 +1,24 @@
+syntax = "proto3";
+package pb;
+option go_package = "./;pb";
+	// 客户端登录请求
+message LoginReq{
+  // 游戏ID
+  int32 gameId=1;
+  // 平台
+  int32 platformId=2;
+  // 游戏模式/官游/野游
+  int32 modeId=3;
+  // 账号
+  string accountId=4;
+  // 版本
+  string version=5;
+  // 直播间绑定码 (野游发直播路径，官方发房间id)
+  string roomId=6;
+  // token
+  string token=7;
+  // 战斗是否未结算
+  bool isBattleUnsettle=8;// true 是没有结算 false 是已经结算或没有开始
+  // 主播的名字
+  string anchorName=9;
+}

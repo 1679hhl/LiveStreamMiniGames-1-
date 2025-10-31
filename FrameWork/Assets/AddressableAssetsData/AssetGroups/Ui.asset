@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Ui
+  m_EditorClassIdentifier: 
+  m_GroupName: Ui
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 74c4d81a813166d4ba55ac8951bc039a
+  m_SerializeEntries:
+  - m_GUID: 0259cdedb9566ac4aafcf50dd919c68a
+    m_Address: GlobalMessageBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ecee7c15c687f74ebca409520bc9679
+    m_Address: Toast
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ac51cc88f075a741bf4017f390f83b1
+    m_Address: UIBattlePad
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4243f7f7c76e498439cadc9bf6adea2e
+    m_Address: UIBattleResult
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 540164ba384496640875491a3f593473
+    m_Address: KNLoading
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96f456cbc177e8c439dafd9fe6e69828
+    m_Address: UIBattlePad1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2911da4d6baf94429b8a448d8d1cb86
+    m_Address: UILobby1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8a4fcfad69efb84db3e09121e45f665
+    m_Address: UIAccountLogin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5fd9b48bebcda944aae767e24bc08b5
+    m_Address: UILobby
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef2fb383a2373f84da7cf445a1044ec5
+    m_Address: UIRank
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c75f2ca1b1119344ab13edda26221a61, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1c557b2330f0cde46bbbf4ae26d0b9b8, type: 2}
+    - {fileID: 11400000, guid: 3aed0cb9466eaa9438e87397d1c13250, type: 2}

@@ -1,0 +1,304 @@
+{
+    "DMCMDArray": [
+        {
+            "Id": 1,
+            "DMCMD": "点赞",
+            "DMCMDDesc": "抛竿/起杆",
+            "DMCMD_Backup": "点赞"
+        },
+        {
+            "Id": 2,
+            "DMCMD": "加入",
+            "DMCMDDesc": "加入玩法",
+            "DMCMD_Backup": "加入"
+        },
+        {
+            "Id": 2,
+            "DMCMD": "加入+数字",
+            "DMCMDDesc": "加入玩法",
+            "DMCMD_Backup": "指定位置加入|换风水"
+        },
+        {
+            "Id": 3,
+            "DMCMD": "查询属性",
+            "DMCMDDesc": "查看个人属性",
+            "DMCMD_Backup": "属性"
+        },
+        {
+            "Id": 4,
+            "DMCMD": "查询鱼谱",
+            "DMCMDDesc": "个人小鱼谱",
+            "DMCMD_Backup": "鱼谱"
+        },
+        {
+            "Id": 5,
+            "DMCMD": "查询鱼桶",
+            "DMCMDDesc": "个人鱼桶界面",
+            "DMCMD_Backup": "鱼桶"
+        },
+        {
+            "Id": 6,
+            "DMCMD": "卖鱼全部",
+            "DMCMDDesc": "鱼桶全都卖掉",
+            "DMCMD_Backup": "卖鱼全部"
+        },
+        {
+            "Id": 7,
+            "DMCMD": "查询Buff",
+            "DMCMDDesc": "可以查询所有buff和礼物",
+            "DMCMD_Backup": "查询buff"
+        },
+        {
+            "Id": 8,
+            "DMCMD": "选+礼物+数字",
+            "DMCMDDesc": "可以消耗礼物币兑换礼物",
+            "DMCMD_Backup": "选+礼物+数字"
+        },
+        {
+            "Id": 9,
+            "DMCMD": "锁定关卡+数字",
+            "DMCMDDesc": "锁定当前所在场景的关卡",
+            "DMCMD_Backup": "锁定关卡+数字"
+        },
+        {
+            "Id": 11,
+            "DMCMD": "取消锁定",
+            "DMCMDDesc": "取消锁定,跟随主播关卡",
+            "DMCMD_Backup": "锁定取消"
+        },
+        {
+            "Id": 12,
+            "DMCMD": "神秘宝箱",
+            "DMCMDDesc": "开启一次 神秘宝箱",
+            "DMCMD_Backup": "神秘宝箱"
+        },
+        {
+            "Id": 13,
+            "DMCMD": "查询装备",
+            "DMCMDDesc": "打开装备强化界面",
+            "DMCMD_Backup": "查询装备"
+        },
+        {
+            "Id": 14,
+            "DMCMD": "查询道具",
+            "DMCMDDesc": "打开道具列表",
+            "DMCMD_Backup": "查询道具"
+        },
+        {
+            "Id": 15,
+            "DMCMD": "选强化+数字",
+            "DMCMDDesc": "强化对应装备槽(可不打开界面) (数字1~8)",
+            "DMCMD_Backup": "选强化+数字"
+        },
+        {
+            "Id": 16,
+            "DMCMD": "查询幸运",
+            "DMCMDDesc": "打开幸运值窗口",
+            "DMCMD_Backup": "查询悟性"
+        },
+        {
+            "Id": 17,
+            "DMCMD": "鱼缸",
+            "DMCMDDesc": "打开鱼缸窗口",
+            "DMCMD_Backup": "查询鱼缸"
+        },
+        {
+            "Id": 18,
+            "DMCMD": "领取任务+数字",
+            "DMCMDDesc": "领取任务列表里的任务",
+            "DMCMD_Backup": "领取任务+数字"
+        },
+        {
+            "Id": 19,
+            "DMCMD": "查询任务",
+            "DMCMDDesc": "玩家领取的任务窗口",
+            "DMCMD_Backup": "任务查询|任务"
+        },
+        {
+            "Id": 20,
+            "DMCMD": "养鱼+数字",
+            "DMCMDDesc": "鱼桶界面选择鱼进入鱼缸",
+            "DMCMD_Backup": "养鱼+数字"
+        },
+        {
+            "Id": 21,
+            "DMCMD": "卖鱼+数字",
+            "DMCMDDesc": "鱼缸/鱼桶界面，选择鱼卖掉",
+            "DMCMD_Backup": "卖鱼+数字"
+        },
+        {
+            "Id": 22,
+            "DMCMD": "卖鱼+几品",
+            "DMCMDDesc": "卖掉鱼桶里的几品鱼",
+            "DMCMD_Backup": "卖鱼+几品"
+        },
+        {
+            "Id": 23,
+            "DMCMD": "鱼榜收贡",
+            "DMCMDDesc": "打开收供收贡清单窗口",
+            "DMCMD_Backup": "鱼榜收贡"
+        },
+        {
+            "Id": 24,
+            "DMCMD": "查询收贡",
+            "DMCMDDesc": "飘屏:当前收贡：[xx]金币 | 鱼王数：[xx] | 排名：第[xx]名",
+            "DMCMD_Backup": "查询收贡"
+        },
+        {
+            "Id": 25,
+            "DMCMD": "使用幸运丹小+数量",
+            "DMCMDDesc": "增加2X数量点幸运值",
+            "DMCMD_Backup": "使用幸运丹小+数量"
+        },
+        {
+            "Id": 26,
+            "DMCMD": "使用幸运丹中+数量",
+            "DMCMDDesc": "增加5X数量点幸运值",
+            "DMCMD_Backup": "使用幸运丹中+数量"
+        },
+        {
+            "Id": 27,
+            "DMCMD": "使用幸运丹大+数量",
+            "DMCMDDesc": "增加20X数量点幸运值",
+            "DMCMD_Backup": "使用幸运丹大+数量"
+        },
+        {
+            "Id": 28,
+            "DMCMD": "使用鱼雷",
+            "DMCMDDesc": "对当前水域关卡随机炸随机数量的鱼",
+            "DMCMD_Backup": "使用鱼雷"
+        },
+        {
+            "Id": 29,
+            "DMCMD": "使用免等符",
+            "DMCMDDesc": "接下来钓鱼的1分钟内,不需要等待",
+            "DMCMD_Backup": "使用免等符"
+        },
+        {
+            "Id": 30,
+            "DMCMD": "使用抗贡令+数量",
+            "DMCMDDesc": "持续10分钟, 不需要缴纳进贡",
+            "DMCMD_Backup": "使用抗贡令+数量"
+        },
+        {
+            "Id": 31,
+            "DMCMD": "使用偷鱼符+编号",
+            "DMCMDDesc": "对编号玩家鱼桶随机一条鱼偷走卖成金币",
+            "DMCMD_Backup": "使用偷鱼符+编号"
+        },
+        {
+            "Id": 32,
+            "DMCMD": "使用偷桶符+数量",
+            "DMCMDDesc": "对编号玩家鱼桶所有鱼偷走卖成金币",
+            "DMCMD_Backup": "使用偷桶符+数量"
+        },
+        {
+            "Id": 33,
+            "DMCMD": "使用时间加速器+编号",
+            "DMCMDDesc": "对鱼缸中的编号鱼直接成为完全体",
+            "DMCMD_Backup": "使用时间加速器+编号"
+        },
+        {
+            "Id": 34,
+            "DMCMD": "使用变异药剂+编号",
+            "DMCMDDesc": "对鱼缸中的编号鱼直接成为变异鱼",
+            "DMCMD_Backup": "使用变异药剂+编号"
+        },
+        {
+            "Id": 35,
+            "DMCMD": "使用克隆药剂+编号",
+            "DMCMDDesc": "对鱼缸中的编号鱼返老还童!",
+            "DMCMD_Backup": "使用克隆药剂+编号"
+        },
+        {
+            "Id": 36,
+            "DMCMD": "上阵",
+            "DMCMDDesc": "打开鱼上阵窗口",
+            "DMCMD_Backup": "上阵"
+        },
+        {
+            "Id": 37,
+            "DMCMD": "上阵+鱼名",
+            "DMCMDDesc": "在 鱼上阵窗口 选鱼上阵",
+            "DMCMD_Backup": "上阵+鱼名"
+        },
+        {
+            "Id": 38,
+            "DMCMD": "下阵+鱼名",
+            "DMCMDDesc": "在 鱼上阵窗口 选鱼下阵",
+            "DMCMD_Backup": "下阵+鱼名"
+        },
+        {
+            "Id": 39,
+            "DMCMD": "打窝+10",
+            "DMCMDDesc": "[3]杆 临时幸运*110%+100",
+            "DMCMD_Backup": "打窝+10"
+        },
+        {
+            "Id": 40,
+            "DMCMD": "打窝+100",
+            "DMCMDDesc": "[3]杆 临时幸运*120%+200 鱼上岸数X2",
+            "DMCMD_Backup": "打窝+100"
+        },
+        {
+            "Id": 41,
+            "DMCMD": "打窝+1000",
+            "DMCMDDesc": "[5]杆 临时幸运*130%+300 必定变异!",
+            "DMCMD_Backup": "打窝+1000"
+        },
+        {
+            "Id": 42,
+            "DMCMD": "高级打窝+10",
+            "DMCMDDesc": "[5]杆 临时幸运*120%+200 钓起品质+1",
+            "DMCMD_Backup": "高级打窝+10"
+        },
+        {
+            "Id": 43,
+            "DMCMD": "高级打窝+100",
+            "DMCMDDesc": "[5]杆 临时幸运*150%+500 鱼上岸数X2 钓起品质+1",
+            "DMCMD_Backup": "高级打窝+100"
+        },
+        {
+            "Id": 44,
+            "DMCMD": "高级打窝+1000",
+            "DMCMDDesc": "[8]杆 临时幸运*150%+500 必定变异! 钓起品质+2",
+            "DMCMD_Backup": "高级打窝+1000"
+        },
+        {
+            "Id": 45,
+            "DMCMD": "钓鱼日志",
+            "DMCMDDesc": "打开上鱼日志窗口",
+            "DMCMD_Backup": "钓鱼日志"
+        },
+        {
+            "Id": 46,
+            "DMCMD": "跑鱼日志",
+            "DMCMDDesc": "打开跑鱼日志窗口",
+            "DMCMD_Backup": "跑鱼日志"
+        },
+        {
+            "Id": 47,
+            "DMCMD": "查询排名",
+            "DMCMDDesc": "打开当前水域的鱼谱排名窗口",
+            "DMCMD_Backup": "查询排名"
+        },
+        {
+            "Id": 48,
+            "DMCMD": "购买宝箱+数字",
+            "DMCMDDesc": "直接购买对应1~4级宝箱",
+            "DMCMD_Backup": "购买宝箱+数字"
+        },
+        {
+            "Id": 49,
+            "DMCMD": "购买+数字",
+            "DMCMDDesc": "在商店界面购买对应道具",
+            "DMCMD_Backup": "购买+数字"
+        },
+        {
+            "Id": 50,
+            "DMCMD": "守护主播",
+            "DMCMDDesc": "成为这个直播间的钓手,切换cd24小时",
+            "DMCMD_Backup": "守护主播"
+        }
+    ]
+}

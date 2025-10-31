@@ -1,0 +1,113 @@
+{
+    "GiftGroupArray": [
+        {
+            "Id": 1,
+            "GiftNum": 1,
+            "Props": [
+                6001
+            ],
+            "PropsNum": 10,
+            "DirectEff": 0,
+            "GiftShow": [
+                1
+            ],
+            "AudioId": 0,
+            "GiftTip": "获得",
+            "GiftEffect": 1,
+            "Buffer": "普通鱼饵:",
+            "Concent": "获得普通鱼饵 X "
+        },
+        {
+            "Id": 2,
+            "GiftNum": 1,
+            "Props": [],
+            "PropsNum": 300,
+            "DirectEff": 5001,
+            "GiftShow": [
+                1
+            ],
+            "AudioId": 0,
+            "GiftTip": "增加",
+            "GiftEffect": 2,
+            "Buffer": "自动钓鱼:",
+            "Concent": "开启自动钓鱼，持续时间+"
+        },
+        {
+            "Id": 3,
+            "GiftNum": 1,
+            "Props": [],
+            "PropsNum": 300,
+            "DirectEff": 3001,
+            "GiftShow": [
+                1
+            ],
+            "AudioId": 0,
+            "GiftTip": "增加",
+            "GiftEffect": 3,
+            "Buffer": "攻击力加成:+20",
+            "Concent": "增加20点攻击，持续时间+"
+        },
+        {
+            "Id": 4,
+            "GiftNum": 1,
+            "Props": [
+                6002
+            ],
+            "PropsNum": 10,
+            "DirectEff": 0,
+            "GiftShow": [
+                1
+            ],
+            "AudioId": 0,
+            "GiftTip": "获得",
+            "GiftEffect": 4,
+            "Buffer": "高级鱼饵:",
+            "Concent": "获得高级鱼饵 X "
+        },
+        {
+            "Id": 5,
+            "GiftNum": 1,
+            "Props": [],
+            "PropsNum": 300,
+            "DirectEff": 4001,
+            "GiftShow": [
+                1
+            ],
+            "AudioId": 0,
+            "GiftTip": "增加",
+            "GiftEffect": 5,
+            "Buffer": "攻速:+50%",
+            "Concent": "攻速附加50%，持续时间+"
+        },
+        {
+            "Id": 6,
+            "GiftNum": 1,
+            "Props": [],
+            "PropsNum": 20,
+            "DirectEff": 0,
+            "GiftShow": [
+                1
+            ],
+            "AudioId": 0,
+            "GiftTip": "召唤",
+            "GiftEffect": 6,
+            "Buffer": "无",
+            "Concent": "获得幸运+"
+        },
+        {
+            "Id": 7,
+            "GiftNum": 1,
+            "Props": [],
+            "PropsNum": 1,
+            "DirectEff": 0,
+            "GiftShow": [
+                1
+            ],
+            "AudioId": 0,
+            "GiftTip": "获得",
+            "GiftEffect": 7,
+            "Buffer": "无",
+            "Concent": "开启神秘宝箱 X "
+        }
+    ]
+}

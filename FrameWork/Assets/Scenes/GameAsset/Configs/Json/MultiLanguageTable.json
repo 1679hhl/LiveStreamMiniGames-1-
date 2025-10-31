@@ -1,0 +1,13 @@
+{
+    "MultiLanguageArray": [
+        {
+            "Id": 10001,
+            "ChineseSimplified": "测试简体",
+            "ChineseTraditional": "测试繁体",
+            "English": "测试英语",
+            "Japanese": "测试日语",
+            "Korean": "测试韩语",
+            "Thai": "测试泰语"
+        }
+    ]
+}

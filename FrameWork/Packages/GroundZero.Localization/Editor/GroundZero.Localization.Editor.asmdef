@@ -1,0 +1,17 @@
+{
+    "name": "GroundZero.Localization.Editor",
+    "references": [
+        "GUID:17984f9ecbb21734b960896427eadd1a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

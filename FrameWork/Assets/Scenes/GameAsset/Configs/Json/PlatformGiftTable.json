@@ -1,0 +1,476 @@
+{
+    "PlatformGiftArray": [
+        {
+            "Id": 101,
+            "SGiftId": "5356",
+            "PlatformId": 1,
+            "CGiftId": 1,
+            "GiftValue": 1,
+            "Des": " "
+        },
+        {
+            "Id": 102,
+            "SGiftId": "5359",
+            "PlatformId": 1,
+            "CGiftId": 2,
+            "GiftValue": 10,
+            "Des": ""
+        },
+        {
+            "Id": 103,
+            "SGiftId": "5357",
+            "PlatformId": 1,
+            "CGiftId": 3,
+            "GiftValue": 52,
+            "Des": ""
+        },
+        {
+            "Id": 104,
+            "SGiftId": "5360",
+            "PlatformId": 1,
+            "CGiftId": 4,
+            "GiftValue": 99,
+            "Des": ""
+        },
+        {
+            "Id": 105,
+            "SGiftId": "5361",
+            "PlatformId": 1,
+            "CGiftId": 5,
+            "GiftValue": 199,
+            "Des": ""
+        },
+        {
+            "Id": 106,
+            "SGiftId": "5363",
+            "PlatformId": 1,
+            "CGiftId": 6,
+            "GiftValue": 520,
+            "Des": ""
+        },
+        {
+            "Id": 107,
+            "SGiftId": "MMFinderLiveGift100001",
+            "PlatformId": 2,
+            "CGiftId": 1,
+            "GiftValue": 1,
+            "Des": "爱心"
+        },
+        {
+            "Id": 108,
+            "SGiftId": "MMFinderLiveGift100002",
+            "PlatformId": 2,
+            "CGiftId": 2,
+            "GiftValue": 10,
+            "Des": "干杯"
+        },
+        {
+            "Id": 109,
+            "SGiftId": "MMFinderLiveGift100003",
+            "PlatformId": 2,
+            "CGiftId": 3,
+            "GiftValue": 19,
+            "Des": "撸串"
+        },
+        {
+            "Id": 110,
+            "SGiftId": "MMFinderLiveGift100016",
+            "PlatformId": 2,
+            "CGiftId": 4,
+            "GiftValue": 52,
+            "Des": "晚安"
+        },
+        {
+            "Id": 111,
+            "SGiftId": "MMFinderLiveGift100017",
+            "PlatformId": 2,
+            "CGiftId": 5,
+            "GiftValue": 99,
+            "Des": "告白气球"
+        },
+        {
+            "Id": 112,
+            "SGiftId": "MMFinderLiveGift100018",
+            "PlatformId": 2,
+            "CGiftId": 6,
+            "GiftValue": 199,
+            "Des": "恶魔炸弹"
+        },
+        {
+            "Id": 113,
+            "SGiftId": "MMFinderLiveGift100019",
+            "PlatformId": 2,
+            "CGiftId": 7,
+            "GiftValue": 3000,
+            "Des": "神秘宝箱"
+        },
+        {
+            "Id": 114,
+            "SGiftId": "11582",
+            "PlatformId": 3,
+            "CGiftId": 1,
+            "GiftValue": 1,
+            "Des": "助威火炬"
+        },
+        {
+            "Id": 115,
+            "SGiftId": "11584",
+            "PlatformId": 3,
+            "CGiftId": 2,
+            "GiftValue": 10,
+            "Des": "火花"
+        },
+        {
+            "Id": 116,
+            "SGiftId": "11606",
+            "PlatformId": 3,
+            "CGiftId": 3,
+            "GiftValue": 52,
+            "Des": "助威火箭"
+        },
+        {
+            "Id": 117,
+            "SGiftId": "11585",
+            "PlatformId": 3,
+            "CGiftId": 4,
+            "GiftValue": 99,
+            "Des": "雪糕刺客"
+        },
+        {
+            "Id": 118,
+            "SGiftId": "11586",
+            "PlatformId": 3,
+            "CGiftId": 5,
+            "GiftValue": 199,
+            "Des": "冲鸭"
+        },
+        {
+            "Id": 119,
+            "SGiftId": "12720",
+            "PlatformId": 3,
+            "CGiftId": 6,
+            "GiftValue": 520,
+            "Des": "魔法相机"
+        },
+        {
+            "Id": 159,
+            "SGiftId": "12721",
+            "PlatformId": 3,
+            "CGiftId": 7,
+            "GiftValue": 1200,
+            "Des": "超酷跑车"
+        },
+        {
+            "Id": 120,
+            "SGiftId": "5356",
+            "PlatformId": 4,
+            "CGiftId": 1,
+            "GiftValue": 1,
+            "Des": ""
+        },
+        {
+            "Id": 121,
+            "SGiftId": "5359",
+            "PlatformId": 4,
+            "CGiftId": 2,
+            "GiftValue": 10,
+            "Des": ""
+        },
+        {
+            "Id": 122,
+            "SGiftId": "5357",
+            "PlatformId": 4,
+            "CGiftId": 3,
+            "GiftValue": 52,
+            "Des": ""
+        },
+        {
+            "Id": 123,
+            "SGiftId": "5360",
+            "PlatformId": 4,
+            "CGiftId": 4,
+            "GiftValue": 99,
+            "Des": ""
+        },
+        {
+            "Id": 124,
+            "SGiftId": "5361",
+            "PlatformId": 4,
+            "CGiftId": 5,
+            "GiftValue": 199,
+            "Des": ""
+        },
+        {
+            "Id": 125,
+            "SGiftId": "5363",
+            "PlatformId": 4,
+            "CGiftId": 6,
+            "GiftValue": 520,
+            "Des": ""
+        },
+        {
+            "Id": 126,
+            "SGiftId": "n1/Dg1905sj1FyoBlQBvmbaDZFBNaKuKZH6zxHkv8Lg5x2cRfrKUTb8gzMs=",
+            "PlatformId": 5,
+            "CGiftId": 1,
+            "GiftValue": 1,
+            "Des": "仙女棒"
+        },
+        {
+            "Id": 127,
+            "SGiftId": "28rYzVFNyXEXFC8HI+f/WG+I7a6lfl3OyZZjUS+CVuwCgYZrPrUdytGHu0c=",
+            "PlatformId": 5,
+            "CGiftId": 2,
+            "GiftValue": 10,
+            "Des": "能力药丸"
+        },
+        {
+            "Id": 128,
+            "SGiftId": "fJs8HKQ0xlPRixn8JAUiL2gFRiLD9S6IFCFdvZODSnhyo9YN8q7xUuVVyZI=",
+            "PlatformId": 5,
+            "CGiftId": 3,
+            "GiftValue": 19,
+            "Des": "魔法镜"
+        },
+        {
+            "Id": 129,
+            "SGiftId": "PJ0FFeaDzXUreuUBZH6Hs+b56Jh0tQjrq0bIrrlZmv13GSAL9Q1hf59fjGk=",
+            "PlatformId": 5,
+            "CGiftId": 4,
+            "GiftValue": 52,
+            "Des": "甜甜圈"
+        },
+        {
+            "Id": 130,
+            "SGiftId": "IkkadLfz7O/a5UR45p/OOCCG6ewAWVbsuzR/Z+v1v76CBU+mTG/wPjqdpfg=",
+            "PlatformId": 5,
+            "CGiftId": 5,
+            "GiftValue": 99,
+            "Des": "能量电池"
+        },
+        {
+            "Id": 131,
+            "SGiftId": "gx7pmjQfhBaDOG2XkWI2peZ66YFWkCWRjZXpTqb23O/epru+sxWyTV/3Ufs=",
+            "PlatformId": 5,
+            "CGiftId": 6,
+            "GiftValue": 199,
+            "Des": "爱的爆炸"
+        },
+        {
+            "Id": 132,
+            "SGiftId": "rROiXLcY2saGvxHt3fAkYbWvbbikhEzbo0wpI794zEv+A2SCLrkNKYZEVuE=",
+            "PlatformId": 5,
+            "CGiftId": 7,
+            "GiftValue": 3000,
+            "Des": "稀有宝箱"
+        },
+        {
+            "Id": 131,
+            "SGiftId": "181",
+            "PlatformId": 9,
+            "CGiftId": 1,
+            "GiftValue": 1,
+            "Des": "比心"
+        },
+        {
+            "Id": 132,
+            "SGiftId": "182",
+            "PlatformId": 9,
+            "CGiftId": 3,
+            "GiftValue": 10,
+            "Des": "魔法棒"
+        },
+        {
+            "Id": 133,
+            "SGiftId": "184",
+            "PlatformId": 9,
+            "CGiftId": 4,
+            "GiftValue": 52,
+            "Des": "情书"
+        },
+        {
+            "Id": 134,
+            "SGiftId": "185",
+            "PlatformId": 9,
+            "CGiftId": 5,
+            "GiftValue": 99,
+            "Des": "超级电池"
+        },
+        {
+            "Id": 135,
+            "SGiftId": "186",
+            "PlatformId": 9,
+            "CGiftId": 6,
+            "GiftValue": 199,
+            "Des": "武功秘籍"
+        },
+        {
+            "Id": 136,
+            "SGiftId": "189",
+            "PlatformId": 9,
+            "CGiftId": 7,
+            "GiftValue": 520,
+            "Des": "神秘宝石"
+        },
+        {
+            "Id": 137,
+            "SGiftId": "7",
+            "PlatformId": 9,
+            "CGiftId": 1,
+            "GiftValue": 1,
+            "Des": "比心"
+        },
+        {
+            "Id": 138,
+            "SGiftId": "1",
+            "PlatformId": 9,
+            "CGiftId": 2,
+            "GiftValue": 10,
+            "Des": "魔法棒"
+        },
+        {
+            "Id": 139,
+            "SGiftId": "8",
+            "PlatformId": 9,
+            "CGiftId": 3,
+            "GiftValue": 52,
+            "Des": "情书"
+        },
+        {
+            "Id": 140,
+            "SGiftId": "3",
+            "PlatformId": 9,
+            "CGiftId": 4,
+            "GiftValue": 99,
+            "Des": "超级电池"
+        },
+        {
+            "Id": 141,
+            "SGiftId": "4",
+            "PlatformId": 9,
+            "CGiftId": 5,
+            "GiftValue": 199,
+            "Des": "武功秘籍"
+        },
+        {
+            "Id": 142,
+            "SGiftId": "5",
+            "PlatformId": 9,
+            "CGiftId": 6,
+            "GiftValue": 520,
+            "Des": "神秘宝石"
+        },
+        {
+            "Id": 143,
+            "SGiftId": "",
+            "PlatformId": 16,
+            "CGiftId": 1,
+            "GiftValue": 1,
+            "Des": "仙女棒"
+        },
+        {
+            "Id": 144,
+            "SGiftId": "",
+            "PlatformId": 16,
+            "CGiftId": 2,
+            "GiftValue": 10,
+            "Des": "能力药丸"
+        },
+        {
+            "Id": 145,
+            "SGiftId": "",
+            "PlatformId": 16,
+            "CGiftId": 3,
+            "GiftValue": 52,
+            "Des": "甜甜圈"
+        },
+        {
+            "Id": 146,
+            "SGiftId": "",
+            "PlatformId": 16,
+            "CGiftId": 4,
+            "GiftValue": 99,
+            "Des": "能量电池"
+        },
+        {
+            "Id": 147,
+            "SGiftId": "",
+            "PlatformId": 16,
+            "CGiftId": 5,
+            "GiftValue": 199,
+            "Des": "恶魔炸弹"
+        },
+        {
+            "Id": 148,
+            "SGiftId": "",
+            "PlatformId": 16,
+            "CGiftId": 6,
+            "GiftValue": 520,
+            "Des": "神秘空投"
+        },
+        {
+            "Id": 149,
+            "SGiftId": "",
+            "PlatformId": 16,
+            "CGiftId": 7,
+            "GiftValue": 1200,
+            "Des": "超能喷射"
+        },
+        {
+            "Id": 150,
+            "SGiftId": "",
+            "PlatformId": 15,
+            "CGiftId": 1,
+            "GiftValue": 1,
+            "Des": "仙女棒"
+        },
+        {
+            "Id": 151,
+            "SGiftId": "",
+            "PlatformId": 15,
+            "CGiftId": 2,
+            "GiftValue": 10,
+            "Des": "能力药丸"
+        },
+        {
+            "Id": 152,
+            "SGiftId": "",
+            "PlatformId": 15,
+            "CGiftId": 3,
+            "GiftValue": 30,
+            "Des": "甜甜圈"
+        },
+        {
+            "Id": 153,
+            "SGiftId": "",
+            "PlatformId": 15,
+            "CGiftId": 4,
+            "GiftValue": 99,
+            "Des": "能量电池"
+        },
+        {
+            "Id": 154,
+            "SGiftId": "",
+            "PlatformId": 15,
+            "CGiftId": 5,
+            "GiftValue": 199,
+            "Des": "恶魔炸弹"
+        },
+        {
+            "Id": 155,
+            "SGiftId": "",
+            "PlatformId": 15,
+            "CGiftId": 6,
+            "GiftValue": 500,
+            "Des": "神秘空投"
+        },
+        {
+            "Id": 156,
+            "SGiftId": "",
+            "PlatformId": 15,
+            "CGiftId": 7,
+            "GiftValue": 999,
+            "Des": "超能喷射"
+        }
+    ]
+}

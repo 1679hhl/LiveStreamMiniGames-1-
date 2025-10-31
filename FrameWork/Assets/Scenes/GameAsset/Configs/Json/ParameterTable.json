@@ -1,0 +1,156 @@
+{
+    "ParameterArray": [
+        {
+            "Id": 1,
+            "Param1": 0,
+            "Param2": [
+                1,
+                1,
+                1,
+                0.1,
+                2
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 2,
+            "Param1": 0,
+            "Param2": [
+                50011,
+                0.05
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 3,
+            "Param1": 0,
+            "Param2": [
+                50021,
+                0.01
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 4,
+            "Param1": 0,
+            "Param2": [
+                50041,
+                0.01
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 5,
+            "Param1": 0,
+            "Param2": [
+                5009,
+                0.1
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 6,
+            "Param1": 0,
+            "Param2": [
+                50031,
+                0.05
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 7,
+            "Param1": 0,
+            "Param2": [
+                50051,
+                0.05
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 8,
+            "Param1": 0,
+            "Param2": [
+                50061,
+                0.05
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 9,
+            "Param1": 0,
+            "Param2": [
+                50081,
+                0.05
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 10,
+            "Param1": 0,
+            "Param2": [
+                50071,
+                0.05
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 11,
+            "Param1": 0,
+            "Param2": [
+                50101,
+                200
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 12,
+            "Param1": 0,
+            "Param2": [
+                12,
+                18
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 13,
+            "Param1": 0,
+            "Param2": [
+                6,
+                10
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 14,
+            "Param1": 60,
+            "Param2": [],
+            "Param3": "empty",
+            "Param4": 0.0
+        },
+        {
+            "Id": 15,
+            "Param1": 0,
+            "Param2": [
+                4,
+                16,
+                32,
+                72
+            ],
+            "Param3": "empty",
+            "Param4": 0.0
+        }
+    ]
+}

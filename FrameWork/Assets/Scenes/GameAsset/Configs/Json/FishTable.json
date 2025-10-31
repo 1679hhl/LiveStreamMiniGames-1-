@@ -1,0 +1,628 @@
+{
+    "FishArray": [
+        {
+            "Id": 46001,
+            "Name": "秋刀鱼",
+            "FishGrade": 48001,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46002,
+            "Name": "皮皮虾",
+            "FishGrade": 48001,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46003,
+            "Name": "蚌壳",
+            "FishGrade": 48001,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46004,
+            "Name": "胖头鱼",
+            "FishGrade": 48001,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46005,
+            "Name": "毛鳞魚",
+            "FishGrade": 48001,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46006,
+            "Name": "翘嘴鲌",
+            "FishGrade": 48001,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46007,
+            "Name": "草鱼",
+            "FishGrade": 48001,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46008,
+            "Name": "白条",
+            "FishGrade": 48001,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46009,
+            "Name": "鲶鱼",
+            "FishGrade": 48001,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46010,
+            "Name": "沙丁鱼",
+            "FishGrade": 48001,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46011,
+            "Name": "海蜘蛛",
+            "FishGrade": 48001,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46012,
+            "Name": "鳜鱼",
+            "FishGrade": 48001,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46013,
+            "Name": "鲤鱼",
+            "FishGrade": 48001,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46014,
+            "Name": "生蚝",
+            "FishGrade": 48002,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46015,
+            "Name": "罗非鱼",
+            "FishGrade": 48002,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46016,
+            "Name": "胭脂鱼",
+            "FishGrade": 48002,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46017,
+            "Name": "梭子蟹",
+            "FishGrade": 48002,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46018,
+            "Name": "八爪鱼",
+            "FishGrade": 48002,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46019,
+            "Name": "扇贝",
+            "FishGrade": 48002,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46020,
+            "Name": "鲫鱼",
+            "FishGrade": 48002,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46021,
+            "Name": "海葵",
+            "FishGrade": 48002,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46022,
+            "Name": "黄鳝",
+            "FishGrade": 48002,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46023,
+            "Name": "带鱼",
+            "FishGrade": 48002,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46024,
+            "Name": "魟鱼",
+            "FishGrade": 48002,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46025,
+            "Name": "黑鱼",
+            "FishGrade": 48002,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46026,
+            "Name": "高原鳅",
+            "FishGrade": 48002,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46027,
+            "Name": "大闸蟹",
+            "FishGrade": 48003,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46028,
+            "Name": "鲈鱼",
+            "FishGrade": 48003,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46029,
+            "Name": "帝王鲑",
+            "FishGrade": 48003,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46030,
+            "Name": "绿海龟",
+            "FishGrade": 48003,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46031,
+            "Name": "乌贼",
+            "FishGrade": 48003,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46032,
+            "Name": "龙虾",
+            "FishGrade": 48003,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46033,
+            "Name": "鳕鱼",
+            "FishGrade": 48003,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46034,
+            "Name": "魔鬼鱼",
+            "FishGrade": 48003,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46035,
+            "Name": "帝王蟹",
+            "FishGrade": 48003,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46036,
+            "Name": "小丑鱼",
+            "FishGrade": 48003,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46037,
+            "Name": "中华鲟",
+            "FishGrade": 48003,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46038,
+            "Name": "鳙鱼",
+            "FishGrade": 48003,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46039,
+            "Name": "滩涂鱼",
+            "FishGrade": 48004,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46040,
+            "Name": "大马哈鱼",
+            "FishGrade": 48004,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46041,
+            "Name": "冰鲨",
+            "FishGrade": 48004,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46042,
+            "Name": "冰棘鱼",
+            "FishGrade": 48004,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46043,
+            "Name": "珊瑚鱼",
+            "FishGrade": 48004,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46044,
+            "Name": "皇冠狗头鱼",
+            "FishGrade": 48004,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46045,
+            "Name": "金枪鱼",
+            "FishGrade": 48004,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46046,
+            "Name": "吕宋棘海星",
+            "FishGrade": 48004,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46047,
+            "Name": "大白鲨",
+            "FishGrade": 48004,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46048,
+            "Name": "鲍鱼",
+            "FishGrade": 48004,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46049,
+            "Name": "红箭",
+            "FishGrade": 48004,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46050,
+            "Name": "蛇鱼",
+            "FishGrade": 48004,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46051,
+            "Name": "石斑鱼",
+            "FishGrade": 48005,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46052,
+            "Name": "巨型琵琶鱼",
+            "FishGrade": 48005,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46053,
+            "Name": "紫海刺水母",
+            "FishGrade": 48005,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46054,
+            "Name": "蓝灯水母",
+            "FishGrade": 48005,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46055,
+            "Name": "血红龙",
+            "FishGrade": 48005,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46056,
+            "Name": "锦鲤",
+            "FishGrade": 48005,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46057,
+            "Name": "电鳗",
+            "FishGrade": 48006,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46058,
+            "Name": "抹香鲸",
+            "FishGrade": 48006,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46059,
+            "Name": "虎鲸",
+            "FishGrade": 48006,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46060,
+            "Name": "龙王鲸",
+            "FishGrade": 48006,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46061,
+            "Name": "巨齿鲨",
+            "FishGrade": 48006,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46062,
+            "Name": "青海湖水怪",
+            "FishGrade": 48006,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46063,
+            "Name": "幻星瑰鱼",
+            "FishGrade": 48007,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46064,
+            "Name": "龙鱼",
+            "FishGrade": 48007,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46065,
+            "Name": "玄武",
+            "FishGrade": 48007,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46066,
+            "Name": "七彩虹鲤",
+            "FishGrade": 48007,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46067,
+            "Name": "美杜莎",
+            "FishGrade": 48007,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46068,
+            "Name": "鲲鹏",
+            "FishGrade": 48007,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46069,
+            "Name": "苏荷影",
+            "FishGrade": 48007,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46070,
+            "Name": "露凝香",
+            "FishGrade": 48007,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46071,
+            "Name": "雪轻波",
+            "FishGrade": 48007,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46072,
+            "Name": "林汐瑶",
+            "FishGrade": 48007,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46073,
+            "Name": "月涟漪",
+            "FishGrade": 48007,
+            "NormalFish": 0,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46074,
+            "Name": "敖光",
+            "FishGrade": 48007,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46075,
+            "Name": "敖闰",
+            "FishGrade": 48007,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46076,
+            "Name": "凌沧刃",
+            "FishGrade": 48007,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46077,
+            "Name": "墨川行",
+            "FishGrade": 48007,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        },
+        {
+            "Id": 46078,
+            "Name": "江星晚",
+            "FishGrade": 48007,
+            "NormalFish": 1,
+            "Sex": 1,
+            "UnlockConditionId": 0
+        }
+    ]
+}

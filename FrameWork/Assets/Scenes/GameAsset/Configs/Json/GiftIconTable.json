@@ -1,0 +1,347 @@
+{
+    "GiftIconArray": [
+        {
+            "Id": 1,
+            "Des": "仙女棒",
+            "IntGiftID": 1,
+            "PlatformID": 0,
+            "LoadPath": "DY_1_XNB"
+        },
+        {
+            "Id": 2,
+            "Des": "能力药丸",
+            "IntGiftID": 2,
+            "PlatformID": 0,
+            "LoadPath": "DY_10_NLYW"
+        },
+        {
+            "Id": 3,
+            "Des": "魔法镜",
+            "IntGiftID": 3,
+            "PlatformID": 0,
+            "LoadPath": "DY_19_MFJ"
+        },
+        {
+            "Id": 4,
+            "Des": "甜甜圈",
+            "IntGiftID": 4,
+            "PlatformID": 0,
+            "LoadPath": "DY_52_TTQ"
+        },
+        {
+            "Id": 5,
+            "Des": "能量电池",
+            "IntGiftID": 5,
+            "PlatformID": 0,
+            "LoadPath": "DY_99_NLDC"
+        },
+        {
+            "Id": 6,
+            "Des": "爱的爆炸",
+            "IntGiftID": 6,
+            "PlatformID": 0,
+            "LoadPath": "DY_199_ADBZ"
+        },
+        {
+            "Id": 7,
+            "Des": "神秘宝箱",
+            "IntGiftID": 7,
+            "PlatformID": 0,
+            "LoadPath": "DY_3000_SMBX"
+        },
+        {
+            "Id": 8,
+            "Des": "",
+            "IntGiftID": 1,
+            "PlatformID": 1,
+            "LoadPath": "Icon\\DY_XNB"
+        },
+        {
+            "Id": 9,
+            "Des": "",
+            "IntGiftID": 2,
+            "PlatformID": 1,
+            "LoadPath": "Icon\\DY_YW"
+        },
+        {
+            "Id": 10,
+            "Des": "",
+            "IntGiftID": 3,
+            "PlatformID": 1,
+            "LoadPath": "Icon\\DY_TTQ"
+        },
+        {
+            "Id": 11,
+            "Des": "",
+            "IntGiftID": 4,
+            "PlatformID": 1,
+            "LoadPath": "Icon\\DY_NLDC"
+        },
+        {
+            "Id": 12,
+            "Des": "",
+            "IntGiftID": 5,
+            "PlatformID": 1,
+            "LoadPath": "Icon\\DY_EWZD"
+        },
+        {
+            "Id": 13,
+            "Des": "",
+            "IntGiftID": 6,
+            "PlatformID": 1,
+            "LoadPath": "Icon\\DY_SMKT"
+        },
+        {
+            "Id": 14,
+            "Des": "",
+            "IntGiftID": 7,
+            "PlatformID": 1,
+            "LoadPath": "Icon\\DY_CNPS"
+        },
+        {
+            "Id": 15,
+            "Des": "",
+            "IntGiftID": 1,
+            "PlatformID": 2,
+            "LoadPath": "Icon\\DY_XNB"
+        },
+        {
+            "Id": 16,
+            "Des": "",
+            "IntGiftID": 2,
+            "PlatformID": 2,
+            "LoadPath": "Icon\\DY_YW"
+        },
+        {
+            "Id": 17,
+            "Des": "",
+            "IntGiftID": 3,
+            "PlatformID": 2,
+            "LoadPath": "Icon\\DY_TTQ"
+        },
+        {
+            "Id": 18,
+            "Des": "",
+            "IntGiftID": 4,
+            "PlatformID": 2,
+            "LoadPath": "Icon\\DY_NLDC"
+        },
+        {
+            "Id": 19,
+            "Des": "",
+            "IntGiftID": 5,
+            "PlatformID": 2,
+            "LoadPath": "Icon\\DY_EWZD"
+        },
+        {
+            "Id": 20,
+            "Des": "",
+            "IntGiftID": 6,
+            "PlatformID": 2,
+            "LoadPath": "Icon\\DY_SMKT"
+        },
+        {
+            "Id": 21,
+            "Des": "",
+            "IntGiftID": 7,
+            "PlatformID": 2,
+            "LoadPath": "Icon\\DY_CNPS"
+        },
+        {
+            "Id": 22,
+            "Des": "",
+            "IntGiftID": 1,
+            "PlatformID": 3,
+            "LoadPath": "Icon\\GiftIcon_3_1"
+        },
+        {
+            "Id": 23,
+            "Des": "",
+            "IntGiftID": 2,
+            "PlatformID": 3,
+            "LoadPath": "Icon\\GiftIcon_3_10"
+        },
+        {
+            "Id": 24,
+            "Des": "",
+            "IntGiftID": 3,
+            "PlatformID": 3,
+            "LoadPath": "Icon\\GiftIcon_3_52"
+        },
+        {
+            "Id": 25,
+            "Des": "",
+            "IntGiftID": 4,
+            "PlatformID": 3,
+            "LoadPath": "Icon\\GiftIcon_3_99"
+        },
+        {
+            "Id": 26,
+            "Des": "",
+            "IntGiftID": 5,
+            "PlatformID": 3,
+            "LoadPath": "Icon\\GiftIcon_3_199"
+        },
+        {
+            "Id": 27,
+            "Des": "",
+            "IntGiftID": 6,
+            "PlatformID": 3,
+            "LoadPath": "Icon\\GiftIcon_3_520"
+        },
+        {
+            "Id": 28,
+            "Des": "",
+            "IntGiftID": 7,
+            "PlatformID": 3,
+            "LoadPath": "Icon\\GiftIcon_3_1200"
+        },
+        {
+            "Id": 29,
+            "Des": "",
+            "IntGiftID": 1,
+            "PlatformID": 4,
+            "LoadPath": "Icon\\GiftIcon_3_1"
+        },
+        {
+            "Id": 30,
+            "Des": "",
+            "IntGiftID": 2,
+            "PlatformID": 4,
+            "LoadPath": "Icon\\GiftIcon_3_10"
+        },
+        {
+            "Id": 31,
+            "Des": "",
+            "IntGiftID": 3,
+            "PlatformID": 4,
+            "LoadPath": "Icon\\GiftIcon_3_52"
+        },
+        {
+            "Id": 32,
+            "Des": "",
+            "IntGiftID": 4,
+            "PlatformID": 4,
+            "LoadPath": "Icon\\GiftIcon_3_99"
+        },
+        {
+            "Id": 33,
+            "Des": "",
+            "IntGiftID": 5,
+            "PlatformID": 4,
+            "LoadPath": "Icon\\GiftIcon_3_199"
+        },
+        {
+            "Id": 34,
+            "Des": "",
+            "IntGiftID": 6,
+            "PlatformID": 4,
+            "LoadPath": "Icon\\GiftIcon_3_520"
+        },
+        {
+            "Id": 35,
+            "Des": "",
+            "IntGiftID": 7,
+            "PlatformID": 4,
+            "LoadPath": "Icon\\GiftIcon_3_1200"
+        },
+        {
+            "Id": 36,
+            "Des": "仙女棒",
+            "IntGiftID": 1,
+            "PlatformID": 5,
+            "LoadPath": "DY_1_XNB"
+        },
+        {
+            "Id": 37,
+            "Des": "能力药丸",
+            "IntGiftID": 2,
+            "PlatformID": 5,
+            "LoadPath": "DY_10_NLYW"
+        },
+        {
+            "Id": 38,
+            "Des": "魔法镜",
+            "IntGiftID": 3,
+            "PlatformID": 5,
+            "LoadPath": "DY_19_MFJ"
+        },
+        {
+            "Id": 39,
+            "Des": "甜甜圈",
+            "IntGiftID": 4,
+            "PlatformID": 5,
+            "LoadPath": "DY_52_TTQ"
+        },
+        {
+            "Id": 40,
+            "Des": "能量电池",
+            "IntGiftID": 5,
+            "PlatformID": 5,
+            "LoadPath": "DY_99_NLDC"
+        },
+        {
+            "Id": 41,
+            "Des": "爱的爆炸",
+            "IntGiftID": 6,
+            "PlatformID": 5,
+            "LoadPath": "DY_199_ADBZ"
+        },
+        {
+            "Id": 42,
+            "Des": "神秘宝箱",
+            "IntGiftID": 7,
+            "PlatformID": 5,
+            "LoadPath": "DY_3000_SMBX"
+        },
+        {
+            "Id": 43,
+            "Des": "",
+            "IntGiftID": 1,
+            "PlatformID": 15,
+            "LoadPath": ""
+        },
+        {
+            "Id": 44,
+            "Des": "",
+            "IntGiftID": 2,
+            "PlatformID": 15,
+            "LoadPath": ""
+        },
+        {
+            "Id": 45,
+            "Des": "",
+            "IntGiftID": 3,
+            "PlatformID": 15,
+            "LoadPath": ""
+        },
+        {
+            "Id": 46,
+            "Des": "",
+            "IntGiftID": 4,
+            "PlatformID": 15,
+            "LoadPath": ""
+        },
+        {
+            "Id": 47,
+            "Des": "",
+            "IntGiftID": 5,
+            "PlatformID": 15,
+            "LoadPath": ""
+        },
+        {
+            "Id": 48,
+            "Des": "",
+            "IntGiftID": 6,
+            "PlatformID": 15,
+            "LoadPath": ""
+        },
+        {
+            "Id": 49,
+            "Des": "",
+            "IntGiftID": 7,
+            "PlatformID": 15,
+            "LoadPath": ""
+        }
+    ]
+}
