@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
+using UnityEngine.UI; // 添加此命名空间
 
 public class MyGameManager : MonoBehaviour
 {
@@ -56,8 +57,10 @@ public class MyGameManager : MonoBehaviour
     public TextMeshProUGUI blueEnergyText;
 
     [Header("进度显示")]
-    public TextMeshProUGUI redProgressText;
-    public TextMeshProUGUI blueProgressText;
+    public Text redProgressText; // 将 TextMeshProUGUI 替换为 Text
+    public Text blueProgressText; // 将 TextMeshProUGUI 替换为 Text
+
+    public Component targetComponent; // 目标组件
 
     void Awake()
     {
@@ -77,23 +80,23 @@ public class MyGameManager : MonoBehaviour
     {
         if (redEnergyText != null)
         {
-            redEnergyText.text = GetEnergy(EnergyType.Red).ToString("F1");
+            redEnergyText.text = GetEnergy(EnergyType.Red).ToString("F0");
         }
 
         if (blueEnergyText != null)
         {
-            blueEnergyText.text = GetEnergy(EnergyType.Blue).ToString("F1");
+            blueEnergyText.text = GetEnergy(EnergyType.Blue).ToString("F0");
         }
 
         // 更新进度文本
         if (redProgressText != null)
         {
-            redProgressText.text = RedProgress.ToString("F1") + "%";
+            redProgressText.text = RedProgress.ToString("F2") + "%";
         }
 
         if (blueProgressText != null)
         {
-            blueProgressText.text = BlueProgress.ToString("F1") + "%";
+            blueProgressText.text = BlueProgress.ToString("F2") + "%";
         }
     }
 
@@ -144,16 +147,38 @@ public class MyGameManager : MonoBehaviour
         
         // 更新进度显示
         RefreshText();
+
+        UpdateTargetComponent(); // 更新目标组件
     }
 
     void Update()
     {
         UpdateProgress();
+        UpdateTargetComponent(); // 更新目标组件
     }
 
     public void AddEnergy(EnergyType energyType, float energyValue)
     {
         energyValues[energyType] += energyValue;
         RefreshText();
+    }
+
+    private void UpdateTargetComponent()
+    {
+        if (targetComponent != null)
+        {
+            // 将 RedProgress 转换为 0-1 范围的值
+            float normalizedValue = 1f - (RedProgress / 100f);
+
+            var positionDriveType = targetComponent.GetComponent<positionDrive>();
+            if (positionDriveType != null)
+            {
+                positionDriveType.sliderValue = normalizedValue;
+            }
+            else
+            {
+                Debug.LogWarning("目标组件没有 positionDrive 属性或属性类型不是 float");
+            }
+        }
     }
 }
