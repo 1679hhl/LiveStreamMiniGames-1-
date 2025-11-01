@@ -11,7 +11,8 @@ public class GiftBase : MonoBehaviour
     // 辅助方法，供子类调用
     protected void AddEnergy(MyGameManager.EnergyType type, float energy)
     {
-        MyGameManager.Instance.AddEnergy(type, energy);
+        float currentTargetValue = MyGameManager.Instance.GetTargetEnergy(type);
+        MyGameManager.Instance.SetEnergy(type, currentTargetValue + energy);
         if (giftFeedbacks != null)
         {
             giftFeedbacks.PlayFeedbacks();
