@@ -4539,6 +4539,8 @@ MonoBehaviour:
   - rid: 2639329794666004733
   - rid: 2639329878667427916
   - rid: 1501828458461003850
+  - rid: 1501828465286447180
+  - rid: 1501828465286447181
   KeepPlayModeChanges: 0
   PerformanceMode: 0
   RestoreInitialValuesOnDisable: 0
@@ -4622,7 +4624,7 @@ MonoBehaviour:
         Owner: {fileID: 420839766}
         DebugActive: 0
         Mode: 0
-        Duration: 0.2
+        Duration: 0.4
         StartsOff: 0
         EndsOff: 0
         RelativeValues: 0
@@ -4632,7 +4634,7 @@ MonoBehaviour:
         TargetTMPText: {fileID: 738709162}
         FontSizeCurve:
           MMTweenDefinitionType: 0
-          MMTweenCurve: 6
+          MMTweenCurve: 5
           Curve:
             serializedVersion: 2
             m_Curve:
@@ -4674,6 +4676,174 @@ MonoBehaviour:
         RemapOne: 40
         InstantFontSize: 0
         DestinationFontSize: 0
+    - rid: 1501828465286447180
+      type: {class: MMF_RotationSpring, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
+      data:
+        Active: 1
+        UniqueID: -1055343927
+        Label: Rotation Spring
+        OriginalLabel: Rotation Spring
+        ChannelMode: 0
+        Channel: 0
+        MMChannelDefinition: {fileID: 0}
+        Chance: 100
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          PlayCount: 0
+          LimitPlayCount: 0
+          MaxPlayCount: 3
+          SetPlayCountToZeroOnReset: 0
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        AutomatedTargetAcquisition:
+          Mode: 0
+          ChildIndex: 0
+        RandomizeOutput: 0
+        RandomMultiplier: {x: 0.8, y: 1}
+        RandomizeDuration: 0
+        RandomDurationMultiplier: {x: 0.5, y: 2}
+        UseRange: 0
+        RangeDistance: 5
+        UseRangeFalloff: 0
+        RangeFalloff:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        RemapRangeFalloff: {x: 0, y: 1}
+        AutomaticShakerSetupButton:
+          ButtonText: 
+        Owner: {fileID: 420839766}
+        DebugActive: 0
+        AnimateRotationTarget: {fileID: 706299360}
+        DeclaredDuration: 0
+        RotationSpace: 0
+        DampingX: 0.01
+        FrequencyX: 0
+        DampingY: 0.01
+        FrequencyY: 0
+        DampingZ: 0.4
+        FrequencyZ: 6
+        Mode: 2
+        MoveToRotationMin: {x: 45, y: 0, z: 0}
+        MoveToRotationMax: {x: 90, y: 0, z: 0}
+        BumpRotationMin: {x: 0, y: 0, z: 1000}
+        BumpRotationMax: {x: 0, y: 0, z: 1000}
+    - rid: 1501828465286447181
+      type: {class: MMF_TMPBounceEffect, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
+      data:
+        Active: 1
+        UniqueID: -1660966430
+        Label: TMP Bounce Effect
+        OriginalLabel: TMP Bounce Effect
+        ChannelMode: 0
+        Channel: 0
+        MMChannelDefinition: {fileID: 0}
+        Chance: 100
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          PlayCount: 0
+          LimitPlayCount: 0
+          MaxPlayCount: 3
+          SetPlayCountToZeroOnReset: 0
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        AutomatedTargetAcquisition:
+          Mode: 0
+          ChildIndex: 0
+        RandomizeOutput: 0
+        RandomMultiplier: {x: 0.8, y: 1}
+        RandomizeDuration: 0
+        RandomDurationMultiplier: {x: 0.5, y: 2}
+        UseRange: 0
+        RangeDistance: 5
+        UseRangeFalloff: 0
+        RangeFalloff:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        RemapRangeFalloff: {x: 0, y: 1}
+        AutomaticShakerSetupButton:
+          ButtonText: 
+        Owner: {fileID: 420839766}
+        DebugActive: 0
+        TargetTMPText: {fileID: 706299358}
+        BounceOffset: 10
+        BounceScale: 1.5
+        BounceRotation: 15
+        BounceInterval: 0.1
+        BounceDuration: 0.05
     - rid: 2639329784630607954
       type: {class: MMF_Events, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
       data:
@@ -4852,18 +5022,6 @@ MonoBehaviour:
             - m_Target: {fileID: 1797126725}
               m_TargetAssemblyTypeName: MyGameManager, Assembly-CSharp
               m_MethodName: RefreshText
-              m_Mode: 1
-              m_Arguments:
-                m_ObjectArgument: {fileID: 0}
-                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-                m_IntArgument: 0
-                m_FloatArgument: 0
-                m_StringArgument: 
-                m_BoolArgument: 0
-              m_CallState: 2
-            - m_Target: {fileID: 655732392}
-              m_TargetAssemblyTypeName: test, Assembly-CSharp
-              m_MethodName: test1
               m_Mode: 1
               m_Arguments:
                 m_ObjectArgument: {fileID: 0}
@@ -7426,7 +7584,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 655732391}
-  - component: {fileID: 655732392}
   m_Layer: 0
   m_Name: "\u9010\u4E2A\u5B57\u7B26\u8DF3\u52A8"
   m_TagString: Untagged
@@ -7449,24 +7606,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &655732392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 655732390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3bad3ddc14ef2a4db91164b78ab9414, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMeshPro: {fileID: 738709162}
-  bounceOffset: 20
-  bounceScale: 2
-  bounceRotation: 20
-  bounceInterval: 0.035
-  bounceDuration: 0.035
 --- !u!1 &662774507
 GameObject:
   m_ObjectHideFlags: 0
@@ -8257,9 +8396,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1176090316}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -390.60004, y: 225.29999}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -340.60004, y: 225.29999}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &738709162
@@ -12282,7 +12421,7 @@ MonoBehaviour:
         PlayEvents:
           m_PersistentCalls:
             m_Calls:
-            - m_Target: {fileID: 655732392}
+            - m_Target: {fileID: 0}
               m_TargetAssemblyTypeName: test, Assembly-CSharp
               m_MethodName: test1
               m_Mode: 1
